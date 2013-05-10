@@ -12,7 +12,11 @@ XSL Transformation
 Transform XML using XSLT as jQuery plugin
 
 ## Usage	
-```$('#results').xslt('example.com/data.xml', 'example.com/program.xsl');
 
+Example 1:
+```js
+	$('#results').xslt('example.com/data.xml', 'example.com/program.xsl');
+
+```
 
 
