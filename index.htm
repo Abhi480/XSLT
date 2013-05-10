@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>XSL Transformation | @JalalHejazi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="XSL Transformation | @JalalHejazi">
+	<meta name="author" content="Jalal Hejazi">
+
+	<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/textarea.css">
+	<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="hero-unit">
+			<h1>XSL Transformation</h1>
+			<p>
+				<div id="transformation" ></div>
+			</p>
+			<p>
+				<a class="btn btn-primary btn-large" href="#" id="transform">Make the transformation &raquo;</a>
+			</p>
+			
+
+		</div>
+
+		<div class="row">
+			<div class="span4">
+
+				<h2> <i class="icon-pencil"></i>
+					XML
+				</h2>
+
+				<p class="alert">
+					<a class="btn btn-info btn-small" href="#" id="format_xml">Format_xml &raquo;</a>
+					&lt;?xml version=&quot;1.0&quot;?&gt; 	
+
+
+				</p>
+
+				<p>
+			
+					<textarea   id="xml" ></textarea>
+
+				</p>
+
+			</div>
+			<div class="span8">
+				<h2> <i class="icon-pencil"></i>
+					XML Stylesheets Language (XSL)
+				</h2>
+				<p class="alert">
+					<a class="btn btn-info btn-small" href="#" id="format_xsl">Format_xsl &raquo;</a>
+					&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; version=&quot;1.0&quot;&gt; 
+				</p>
+				<p>
+					<textarea  id="xsl"></textarea>
+				</p>
+
+			</div>
+
+		</div>
+
+		<footer>
+			<hr>
+			<p>
+				<a class="btn btn-large" href="#" id="load">Try some test data &raquo;</a>
+			</p>
+			
+		</footer>
+	</div>
+	<!-- /container -->
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.4.3/jquery.js"></script>
+	<script src="javascript/jquery.xslt.js"></script>
+	<script src="javascript/program.js"></script>
+
+</body>
+</html>
