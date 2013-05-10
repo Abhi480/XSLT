@@ -18,5 +18,18 @@ Example 1:
 	$('#results').xslt('example.com/data.xml', 'example.com/program.xsl');
 
 ```
+Example 2:
+```js
+	<script type="text/javascript" src="javascript/xslt.js"></script>
 
+	<script type="text/javascript">
+	window.onload = function() {
+			new Transformation()
+					.setXml("data/doc.xml")
+					.setXslt("data/doc.xsl")
+					.transform("test");
+	}
+	</script>
+	
+```
 
